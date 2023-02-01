@@ -66,7 +66,7 @@ will be very helpful here!
 
 -/
 
--- 3 points
+/- 3 points -/
 theorem problem_1 : (p ∧ q ∧ r) → (p ∧ r) := by 
   sorry
 
@@ -90,7 +90,7 @@ Again, your task is to fill in the `sorry` below to prove this statement.
 
 -/
 
--- 3 points 
+/- 3 points -/
 theorem problem_2 : (p → ¬ q) → ¬ (p ∧ q) := by 
   sorry
 
@@ -120,6 +120,6 @@ Your task: translate this argument to Lean.
 
 -/
 
--- 4 points
+/- 4 points -/
 theorem problem_3 : ((p ∨ q) ∧ (p → r) ∧ (q → s)) → (r ∨ s) := by 
   sorry
